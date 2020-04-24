@@ -1,0 +1,181 @@
+.ca, .en, .es { display:none; }
+.ca:lang(ca), .en:lang(en), .es:lang(es) { display:block; }
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+  	hyphens: auto;
+}
+
+h6{
+	font-weight: bold;
+	letter-spacing: .06em;
+	text-transform: none;
+}
+
+.container2{
+	max-width: 750px;
+}
+
+.container2 p{
+	font-size: 20px;
+	letter-spacing: .06em;
+	line-height: 1.8em;
+	text-transform: none;
+	color: #686868;
+
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.navbar{
+	min-height: 90px;
+}
+.navbar-nav > li{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.navbar-custom{
+    background-color: #ffffff;
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 28px;
+	letter-spacing: .05em;
+}
+.collapse a{
+	font-weight: bold;
+	letter-spacing: .12em;
+	font-size: 14px;
+}
+
+
+#jumbo{
+	height: 90vh;
+	margin-bottom: 12vh;
+	text-align: center;
+	background-color: #B0E0E6;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#jumbo2{
+	height: 90vh;
+	margin-top: 12vh;
+	margin-bottom: 12vh;
+	text-align: center;
+	background-color: #B0E0E6;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron h2{
+	font-family: 'Playfair Display', serif;
+}
+
+.separador{
+	text-align: center;
+	color: #ff8882;
+	font-size: 100px;
+	font-weight: normal;
+}
+.separador2{
+	text-align: center;
+	color: #fcd65a;
+	font-size: 100px; 
+}
+.separador3{
+	text-align: center;
+	color: #75ffc8;
+	font-size: 100px; 
+}
+
+.clientRow{
+	margin-bottom: 12vh;
+}
+
+.social-icon {
+  color: #B0B0B0;
+  margin-right: 8px;
+}
+.contact-icon {
+  color: #B0B0B0;
+  margin-right: 10px;
+}
+
+.serveisTitol{
+	margin-bottom: 100px;
+}
+
+.serveis{
+	margin-top: 60px;
+}
+.serveis p{
+	font-size: 20px;
+	letter-spacing: .06em;
+	line-height: 1.8em;
+	text-transform: none;
+	color: #686868;
+
+	margin-bottom: 120px;
+}
+
+.serveis h4{
+	font-weight: bold;
+	margin-bottom: 30px;
+
+	letter-spacing: .06em;
+}
+.serveis h5{
+	letter-spacing: .06em;
+	line-height: 1.8em;
+	text-transform: none;
+	color: #909090;
+	font-weight: bold;
+}
+
+.marcador1{
+	text-align: center;
+	color: #ff8882;
+	font-size: 170px;
+
+	letter-spacing: .06em;
+}
+.marcador2{
+	text-align: center;
+	color: #75ffc8;
+	font-size: 175px;
+
+	letter-spacing: .06em;
+}
+.marcador3{
+	text-align: center;
+	color: #fcd65a;
+	font-size: 170px;
+
+	letter-spacing: .06em;
+}
+
+.contacte{
+	
+	font-size: 20px;
+	color: #B0B0B0;
+}
+.contacte a:hover{
+	color: #B0B0B0;
+}
+
+.clients:hover{
+	opacity: 0.8;
+}
+
+
